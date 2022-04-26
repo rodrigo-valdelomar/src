@@ -1,0 +1,37 @@
+{% extends 'base2.html' %}
+
+{% block title %} Create Pomodoro {% endblock title %}
+
+{% block content %}
+<h1>test</h1>
+    <form action="">
+        <div class="count-down">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="box-head">
+                            <div class="box-content">
+                                <div class="box">
+                                    <input type="number" id="days" placeholder="Sets"></input>
+                                    <h2 id="daystxt">Days</h2>
+                                </div>
+                                <div class="box">
+                                    <input type="number" id="hours" placeholder="Work"></input>
+                                    <h2 id="hourstxt">Hours</h2>
+                                </div>
+                                <div class="box">
+                                    <input type="number" id="minutes" placeholder="Rest"></input>
+                                    <h2 id="minutestxt">Minutes</h2>
+                                </div>
+                                <div class="box">
+                                    <input type="number" id="seconds" placeholder="Extra"></input>
+                                    <h2 id="secondstxt">Secondes</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</form>
+{% endblock content %}

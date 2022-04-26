@@ -16,6 +16,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from page.views import pomodoro_create_view
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', pomodoro_create_view, name="home"),
 ]

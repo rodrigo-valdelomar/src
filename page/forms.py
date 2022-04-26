@@ -1,5 +1,5 @@
 from django import forms
-from . import Pomodoro
+from .models import Pomodoro
 
 class PomodoroForm(forms.ModelForm):
     
